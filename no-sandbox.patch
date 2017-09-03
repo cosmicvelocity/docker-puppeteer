@@ -1,0 +1,12 @@
+diff --git lib/Launcher.js lib/Launcher.js
+index bbc94b3..fa8e6ad 100644
+--- lib/Launcher.js
++++ lib/Launcher.js
+@@ -44,6 +44,7 @@ const DEFAULT_ARGS = [
+   '--remote-debugging-port=0',
+   '--safebrowsing-disable-auto-update',
+   '--use-mock-keychain',
++  '--no-sandbox',
+ ];
+ 
+ class Launcher {
